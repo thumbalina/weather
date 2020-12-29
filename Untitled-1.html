@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, intial-scale-1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="Untitled-2.css">
+    <style>
+        #city {
+            font-size: 40px;
+            font-weight: bold;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style: normal;
+        }
+        
+        #temp {
+            font-size: 50px;
+            font-weight: bold;
+            font-style: normal;
+        }
+        
+        #weather {
+            font-size: 30px;
+            font-weight: bold;
+            font-style: normal;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-shadow: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="input">
+            <input type="text" id="input-box" placeholder="Enter Your City">
+
+        </div>
+        <div id="root">
+            <div id="details">
+                <div id="city">london</div>
+            </div><br>
+            <div id="status">
+                <div id="temp">34&deg;C</div>
+                <div id="min-max">13(min)/29(max)</div><br>
+                <br>
+                <div id="weather">clear</div>
+                <div id="img"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="Untitled-3.js"></script>
+
+</html>

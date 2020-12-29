@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images/windy.jpg');
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+}
+
+#main {
+    width: 50vh;
+    margin: 100px auto;
+    background-color: darkslategray;
+    padding: 20px;
+    text-align: center;
+}
+
+#input-box {
+    width: 100%;
+    background-color: cornsilk;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.input-box:hover {
+    background-color: salmon;
+}
+
+.root {
+    color: snow;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: darkslategray;
+    height: 50vh;
+    display: none;
+}
+
+.details {
+    font-weight: bolder;
+}
+
+.status {
+    padding: 20px;
+}
+
+.temp {
+    font-size: larger;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 2px 4px black;
+    font-weight: bolder;
+}
+
+.min-max,
+.weather {
+    font-size: 20px;
+    font-weight: 600;
+}
